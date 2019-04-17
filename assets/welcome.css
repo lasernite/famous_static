@@ -1,0 +1,266 @@
+/* line 5, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(#1e89ed, #034c91);
+}
+
+/* line 18, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.section-1 {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+/* line 25, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.section-1 .iphone-demo {
+  position: relative;
+  width: 46vh;
+  height: 90vh;
+}
+/* line 30, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.section-1 .iphone-demo .iphone-case {
+  position: absolute;
+}
+/* line 32, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.section-1 .iphone-demo .iphone-case .iphone-case-image {
+  height: 86vh;
+}
+/* line 37, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.section-1 .iphone-demo .iphone-inner {
+  position: absolute;
+  left: 3.9vh;
+  top: 1.9vh;
+}
+/* line 42, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.section-1 .iphone-demo .iphone-inner .iphone-inner-video {
+  height: 79vh;
+  border-radius: 4.5vh;
+}
+/* line 50, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.section-1 .iphone-demo .iphone-elbow {
+  height: 3vh;
+  width: 21vh;
+  top: 1.3vh;
+  left: 11.6vh;
+  background-color: black;
+  border-bottom-left-radius: 1.8vh;
+  border-bottom-right-radius: 1.8vh;
+  z-index: 5;
+  position: absolute;
+}
+/* line 63, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.section-1 .title-1 {
+  font-size: 32px;
+  width: 550px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-left: 50px;
+}
+
+/* line 76, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.signup {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 86, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.email-form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  max-width: 90vw;
+}
+
+/* line 95, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.email-signup {
+  outline: none;
+  border: none;
+  height: 24px;
+  padding: 12px;
+  font-size: 21px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  border-radius: 9px;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* line 108, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.button-signup {
+  border: none;
+  outline: none;
+  margin-top: 12px;
+  padding: 12px;
+  font-size: 21px;
+  background-color: #b41e96;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  border-radius: 9px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* line 123, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.button-signup:hover {
+  background-color: #be28a8;
+}
+
+/* line 127, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.footer {
+  color: white;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #AA1C8B;
+}
+
+/* line 137, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.footer_box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* line 143, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.footer_col {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 48px 24px 48px;
+}
+
+/* line 148, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.footer_title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+/* line 152, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.footer_body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+}
+
+/* line 158, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.footer_link {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 162, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.footer_row {
+  padding-top: 18px;
+}
+
+@media screen and (max-device-width: 1024px), screen and (max-width: 1080px) {
+  /* line 167, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+  .section-1 {
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+  }
+  /* line 172, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+  .section-1 .iphone-demo {
+    min-height: 90vh;
+    margin-top: 40px;
+  }
+  /* line 177, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+  .section-1 .title-1 {
+    margin-bottom: 120px;
+    width: 100vw;
+    margin-left: 0px;
+    font-size: 24px;
+  }
+
+  /* line 185, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+  .email-form {
+    width: 75vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 192, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+  .footer {
+    height: inherit;
+    text-align: center;
+  }
+
+  /* line 196, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+  .footer_box {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px 32px 0px;
+  }
+}
+/* line 204, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.privacy-section {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 211, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.privacy {
+  margin-top: -10vh;
+  color: white;
+  max-width: 800px;
+}
+/* line 216, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.privacy .privacy-title {
+  font-size: 42px;
+  padding: 21px;
+  text-align: center;
+}
+/* line 222, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.privacy .subsection {
+  padding: 21px;
+  font-size: 16px;
+}
+
+/* line 229, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.privacy-link {
+  text-decoration: none;
+  color: #33ecff;
+}
+
+/* line 236, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.terms-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 241, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.terms {
+  width: 800px;
+  color: white;
+  margin: 15px;
+}
+/* line 246, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.terms .point {
+  font-size: 24px;
+  padding-bottom: 9px;
+  padding-top: 24px;
+}
+/* line 252, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
+.terms .subpoint {
+  margin: 18px;
+}
