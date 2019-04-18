@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(#1e89ed, #034c91);
+  background: linear-gradient(#187fe0, #033c77);
 }
 
 /* line 18, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
@@ -61,6 +61,10 @@ html, body {
   align-items: center;
   color: white;
   margin-left: 50px;
+}
+
+.large-logo {
+  padding-top: 20px;
 }
 
 /* line 76, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
@@ -127,7 +131,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #AA1C8B;
+  background-color: #003163; /*#AA1C8B;*/
 }
 
 /* line 137, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
