@@ -250,6 +250,7 @@ html, body {
 .terms-container {
   display: flex;
   justify-content: center;
+  min-height: 100vh;
 }
 
 /* line 241, /Users/lasernite/Animet/Animet-Landing/app/assets/stylesheets/welcome.scss */
